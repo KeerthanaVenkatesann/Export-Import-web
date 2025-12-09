@@ -1,21 +1,3 @@
-// import React from "react";
-// import ProductList from "./components/ProductList";
-
-// export default function App() {
-//   return (
-//     <div>
-//       <header className="bg-dark text-white py-3">
-//         <h1 className="text-center m-0">Foodfly Traders</h1>
-//       </header>
-//       <main>
-//         <ProductList />
-//       </main>
-//       <footer className="text-center text-muted py-3">
-//         <small>© {new Date().getFullYear()} Foodfly Traders</small>
-//       </footer>
-//     </div>
-//   );
-// }
 import React from "react";
 import ProductList from "./components/ProductList";
 import Navbar from "./components/Navbar";
@@ -24,8 +6,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      
-      {/* Smooth scroll (can also be in index.css) */}
+
       <style>{`html { scroll-behavior: smooth; }`}</style>
                
       {/* HERO / HOME */}

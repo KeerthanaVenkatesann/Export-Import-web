@@ -57,7 +57,7 @@ export default function ProductList() {
           <p>Try adjusting your search or filters.</p>
         </div>
       ) : (
-        // 👇 CENTERED GRID HERE
+      
         <div className="row g-4 justify-content-center">
           {products.map((p) => (
             <div

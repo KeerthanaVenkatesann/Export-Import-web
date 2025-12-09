@@ -15,7 +15,6 @@ class ProductListView(generics.ListAPIView):
         price_max = self.request.query_params.get('price_max')
         available = self.request.query_params.get('available')
 
-        # Filters
         if category:
             queryset = queryset.filter(category__icontains=category)
         if search:

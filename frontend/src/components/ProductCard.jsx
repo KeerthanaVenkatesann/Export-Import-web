@@ -1,30 +1,3 @@
-// import React from "react";
-
-// export default function ProductCard({ product }) {
-//   const whatsappMessage = `Hello, I am interested in ${product.name} priced at ₹${product.price}. Is it available?`;
-//   const whatsappLink = `https://wa.me/919597363802?text=${encodeURIComponent(whatsappMessage)}`;
-
-//   return (
-//     <div className="card" style={{ width: "18rem" }}>
-//       {product.image && (
-//         <img src={product.image} className="card-img-top" alt={product.name} />
-//       )}
-//       <div className="card-body">
-//         <h5 className="card-title">{product.name}</h5>
-//         <p className="card-text"><strong>Category:</strong> {product.category}</p>
-//         <p className="card-text"><strong>Price:</strong> ₹{product.price}</p>
-//         <span className={`badge ${product.available ? 'bg-success' : 'bg-secondary'}`}>
-//           {product.available ? 'In Stock' : 'Out of Stock'}
-//         </span>
-//         <div className="d-grid mt-3">
-//           <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn btn-success">
-//             Enquiry on WhatsApp
-//           </a>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 import React from "react";
 
 export default function ProductCard({ product }) {
